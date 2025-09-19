@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { FaTimes, FaHeart } from "react-icons/fa";
-import SortDropdown, { type SortOption } from "./SortDropdown";
+import SortDropdown from "./SortDropdown";
 import { type Shirt } from "../data/shirts";
 import { useStore } from "../store/useStore";
 

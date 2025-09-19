@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+.hero{
+    background-image: url(hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;   
+} 
+.section2{
+    background-image: url(./bars.jpeg);
+    background-position: center;
+    background-size: 400px;
+    background-position-x : -80px;
+    color: black;
+
+    z-index: -1; 
+}
+
+.divdiv{
+    z-index: 1000000;
+}
